@@ -1,0 +1,159 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2020, 8:13:13 PM
+    Author     : Administrator
+*/
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.page-frame {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+.size-min { 
+    min-width: 1100px;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.my-body {
+    background-color: #aa4043;
+    background-image: url(../image/bg.png);
+    margin: 0;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+}
+
+.main {
+    width: 700px;
+    margin-right: 30px; 
+}
+
+.right {
+    width: 270px;
+}
+
+.image-main img {
+    max-width: 700px;
+}
+
+.name-image {
+    font-style: italic;	
+}
+
+.content {
+    display: flex;
+}
+
+a {
+    color: #ffffff;
+}
+
+.infor {
+    padding-top: 50px;
+    padding-right: 11px;
+    width: 226px;
+}
+
+.infor img {
+    max-width: 226px;
+}
+
+.image-infor {
+    height: 160px;
+}
+
+.paging {
+    margin: 40px 0px;
+    text-align: center;
+}
+
+.paging a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #3333ff;
+    background-color: #3333ff;
+}
+
+.paging .active {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgba(138, 60, 63, 0);
+    background-color: rgba(138, 60, 63, 0);
+}
+
+.about {
+    padding-bottom: 30px;
+}
+
+.about-title {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: serif;
+}
+
+.photo-capite {
+    padding-top: 25px
+}
+
+.capite {
+    font-size: 20px; 
+    font-family: serif;
+}
+
+.map {
+    padding: 50px 0px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table tr td {
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.name {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px 0px;
+}
+
+.image-background {
+    width: 145px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 7px;
+    box-shadow: 0px 55px 30px -50px rgba(0, 0, 0, 0.6);
+}
+
+.image-gallery img {
+    max-width: 145px;
+}
